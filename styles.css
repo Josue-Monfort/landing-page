@@ -8,16 +8,19 @@ html {
   box-sizing: border-box;
 }
 
-/* ------------------------- */
-/* --------- NAVBAR -------- */
-/* ------------------------- */
-
 ul {
   list-style: none;
 }
 
-#navBar a, #navBar a:visited {
+a {
   text-decoration: none;
+}
+
+/* ------------------------- */
+/* --------- NAVBAR -------- */
+/* ------------------------- */
+
+#navBar a, #navBar a:visited {
   color: rgb(34, 34, 34);
   font-weight: 1000;
   font-size: 1.15rem;
@@ -55,3 +58,52 @@ ul {
 /* --------- HEADER -------- */
 /* ------------------------- */
 
+#main {
+  background: url(img/header-img.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 2px black; /* a shadow around the text to make sure it will be visible */
+}
+
+/* It makes the "our responsibility" move to the right direction */
+.h1-right {
+  margin-left: 45px;
+}
+
+/* Header text and spans */
+.header-text h1 {
+  color:rgb(255, 255, 255);
+  font-weight: 100;
+  font-size: 1.9rem;
+}
+
+/* Makes a space between the text and the button */
+.header-text {
+  margin-bottom: 20px;
+}
+
+.header-text span {
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 2.9rem;
+}
+
+/* "Book now!" button */
+#main h2 {
+  color: rgb(224, 224, 224);
+  background-color: rgb(8, 8, 8);
+  font-size: 1.2em;
+  padding: 10px 22px;
+  border-radius: 15px;
+}
+
+#main h2:hover {
+  background-color: rgb(14, 14, 14);
+}
