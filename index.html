@@ -168,10 +168,53 @@
       </div>
     </section>
 
-    <!-- TODO this needs to be made today -->
     <!-- book online section -->
     <section id="book">
-
+      <!-- Book now text -->
+      <div class="bookNow">
+        <h2>Book now</h2>
+        <p>
+          So what are you waiting for? come book a visit to one of our salons 
+          and we can guarantee that you will be satisfied!
+        </p>
+      </div>
+      <!-- Book form submit -->
+      <div class="bookForm">
+        <!-- ! Change to the submited form page -->
+        <form action="bookDone.html">
+          <div>
+            <label for="userName">Your First Name *</label>
+            <input type="text" id="userName" name="userName" placeholder="First Name" required>
+          </div>
+          <div>
+            <label for="userLast">Your Last Name *</label>
+            <input type="text" id="userLast" name="userLast" placeholder="Last Name" required>
+          </div>
+          <div>
+            <label for="userEmail">Your Email *</label>
+            <input type="email" id="userEmail" name="userEmail" placeholder="Email" required>
+          </div>
+          <div>
+            <label for="userNumber">Your Phone Number *</label>
+            <input type="phone" id="userNumber" name="userNumber" placeholder="(1) 555-555-5555" required>
+          </div>
+          <div>
+            <label for="availableHour">Available Hour *</label>
+            <select name="availableHour" id="availableHour">
+              <option value="11AM">11:00 A.M</option>
+              <option value="12PM">12:00 P.M</option>
+              <option value="1PM">1:00 P.M</option>
+              <option value="2PM">2:00 P.M</option>
+              <option value="3PM">3:00 P.M</option>
+              <option value="4pM">4:00 P.M</option>
+              <option value="5pM">5:00 P.M</option>
+              <option value="6pM">6:00 P.M</option>
+              <option value="7pM">7:00 P.M</option>
+            </select>
+          </div>
+          <button>Book now!</button>
+        </form>
+      </div>
     </section>
 
     <!-- TODO this needs to be made today -->
